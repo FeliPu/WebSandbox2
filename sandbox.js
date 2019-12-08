@@ -18,24 +18,10 @@ function TicTac(ele) {
 
 function GameReset() {
   playturn = 1;
-  document.getElementById(1).style.backgroundColor = "green";
-  document.getElementById(1).innerText = "";
-  document.getElementById(2).style.backgroundColor = "green";
-  document.getElementById(2).innerText = "";
-  document.getElementById(3).style.backgroundColor = "green";
-  document.getElementById(3).innerText = "";
-  document.getElementById(4).style.backgroundColor = "green";
-  document.getElementById(4).innerText = "";
-  document.getElementById(5).style.backgroundColor = "green";
-  document.getElementById(5).innerText = "";
-  document.getElementById(6).style.backgroundColor = "green";
-  document.getElementById(6).innerText = "";
-  document.getElementById(7).style.backgroundColor = "green";
-  document.getElementById(7).innerText = "";
-  document.getElementById(8).style.backgroundColor = "green";
-  document.getElementById(8).innerText = "";
-  document.getElementById(9).style.backgroundColor = "green";
-  document.getElementById(9).innerText = "";
+
+  for (let i = 1; i < 10; i++) {
+    document.getElementById(i).style.backgroundColor = "green";
+    document.getElementById(i).innerText = "";
+  }
   document.getElementById("start").innerText = "Restart Game";
 }
-
