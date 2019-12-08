@@ -156,5 +156,60 @@ function winner() {
     document.getElementById("winman").innerText = "Player two Wins!";
     playturn = 0;
   }
-  console.log(win1);
+  if (win2 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win2 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
+  if (win3 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win3 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
+  if (win4 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win4 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
+  if (win5 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win5 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
+  if (win6 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win6 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
+  if (win7 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win7 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
+  if (win8 == 3) {
+    document.getElementById("winman").innerText = "Player one Wins!";
+    playturn = 0;
+  }
+  if (win8 == -3) {
+    document.getElementById("winman").innerText = "Player two Wins!";
+    playturn = 0;
+  }
 }
