@@ -7,7 +7,7 @@ body {
 }
 h1 {
   text-align: center;
-  color: black;
+  color: white;
   margin: 0rem 0rem 0rem 0rem;
   height: 5%;
   font-size: 8rem;
@@ -47,7 +47,7 @@ main {
   margin: 0rem 0rem 0rem 0rem;
   height: 30rem;
   width: 20rem;
-  background-color: gray;
+  background-color: lightgray;
   align-self: center;
   display: flex;
   justify-content: center;
@@ -55,6 +55,7 @@ main {
   flex-direction: column;
   color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-right: gray solid 2pt;
 }
 .row1,
 .row2,
