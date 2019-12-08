@@ -3,6 +3,9 @@
 .UnifrakturMaguntia {
   font-family: "UnifrakturMaguntia", cursive;
 }
+html {
+  height: 100%;
+}
 body {
   margin: 0%;
   padding: 0%;
@@ -10,16 +13,16 @@ body {
 h1 {
   text-align: center;
   color: black;
-  margin: 3rem 0rem 0rem 0rem;
-  height: 10rem;
+  margin: 0rem 0rem 0rem 0rem;
+  height: 5%;
   font-size: 8rem;
   padding: 2rem 0 0 0;
 }
 header {
   background-color: red;
-  margin: 0rem 0rem 0rem 10%;
+  margin: 0rem 0rem 0rem 0rem;
   border: black;
-  width: 80%;
+  width: 100%;
 }
 html {
   background-color: black;
@@ -27,12 +30,15 @@ html {
 }
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
 }
 .Sandbox {
   background-color: lightgray;
-  width: 60%;
+  width: 40rem;
   text-align: center;
-  height: 30rem;
+  height: 90%;
   font-size: 6rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -41,10 +47,17 @@ main {
 }
 
 .linkbox {
-  margin: 0rem 0rem 0rem 10%;
+  margin: 0rem 0rem 0rem 0rem;
   height: 30rem;
-  width: 20%;
-  background-color: blue;
+  width: 20rem;
+  background-color: gray;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .row1,
 .row2,
@@ -58,4 +71,11 @@ li {
   border: black solid 2pt;
   list-style-type: none;
   width: 8rem;
+  height: 8rem;
+}
+button {
+  width: 6rem;
+  height: 6rem;
+  background-color: red;
+  border: black solid 3pt;
 }

@@ -6,30 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="sandbox.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>Unicorn</title>
+    <title>Sandbox</title>
   </head>
 
   <body>
     <header>
-      <h1 class="UnifrakturMaguntia">Eine Kleine Maus</h1>
+      <h1 class="UnifrakturMaguntia">TIC TAC TOE</h1>
     </header>
     <main>
-      <div class="linkbox"></div>
+      <div class="linkbox">
+        <h2 id="start">Start Game</h2>
+        <button onclick="JavaScript:GameReset()"></button>
+      </div>
       <div class="Sandbox">
         <div class="row1">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
+          <li id="1" onclick="JavaScript:TicTac(1)"></li>
+          <li id="2" onclick="JavaScript:TicTac(2)"></li>
+          <li id="3" onclick="JavaScript:TicTac(3)"></li>
         </div>
         <div class="row2">
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
+          <li id="4" onclick="JavaScript:TicTac(4)"></li>
+          <li id="5" onclick="JavaScript:TicTac(5)"></li>
+          <li id="6" onclick="JavaScript:TicTac(6)"></li>
         </div>
         <div class="row3">
-          <li>7</li>
-          <li>8</li>
-          <li>9</li>
+          <li id="7" onclick="JavaScript:TicTac(7)"></li>
+          <li id="8" onclick="JavaScript:TicTac(8)"></li>
+          <li id="9" onclick="JavaScript:TicTac(9)"></li>
         </div>
       </div>
     </main>
