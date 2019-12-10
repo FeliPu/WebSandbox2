@@ -6,6 +6,7 @@ function TicTac(ele) {
     document.getElementById(ele).style.backgroundColor = "orange";
     document.getElementById(ele).innerText = "X";
     playturn = 2;
+    document.getElementById("startbutton").innerText = "Player 1 moves";
   } else if (
     playturn == 2 &&
     document.getElementById(ele).style.backgroundColor == "green"
@@ -13,12 +14,14 @@ function TicTac(ele) {
     document.getElementById(ele).style.backgroundColor = "blue";
     document.getElementById(ele).innerText = "O";
     playturn = 1;
+    document.getElementById("startbutton").innerText = "Player 2 moves";
   }
   winner();
 }
 
 function GameReset() {
   playturn = 1;
+  document.getElementById("startbutton").innerText = "Player 1 moves";
 
   for (let i = 1; i < 10; i++) {
     document.getElementById(i).style.backgroundColor = "green";
@@ -213,4 +216,12 @@ function winner() {
     document.getElementById("winman").innerText = "Player two Wins!";
     playturn = 0;
   }
+  console.log(win1);
+  console.log(win2);
+  console.log(win3);
+  console.log(win4);
+  console.log(win5);
+  console.log(win6);
+  console.log(win7);
+  console.log(win8);
 }
