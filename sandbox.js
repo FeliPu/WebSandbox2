@@ -216,12 +216,4 @@ function winner() {
     document.getElementById("winman").innerText = "Player two Wins!";
     playturn = 0;
   }
-  console.log(win1);
-  console.log(win2);
-  console.log(win3);
-  console.log(win4);
-  console.log(win5);
-  console.log(win6);
-  console.log(win7);
-  console.log(win8);
 }
